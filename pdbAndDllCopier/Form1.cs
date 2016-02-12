@@ -12,13 +12,10 @@ namespace pdbAndDllCopier
 {
     public partial class Form1 : Form, IPdbAndDllCopierView
     {
-        public string FromRoot => textBoxFrom.Text;
-        public string ToFolder => textBoxToPath.Text;
         public event EventHandler CopyClicked;
         public event EventHandler SelectAllClicked;
         public event EventHandler ClearClicked;
         public event ItemCheckEventHandler FolderChecked;
-
         
         public Form1()
         {
@@ -44,8 +41,6 @@ namespace pdbAndDllCopier
 
             checkBoxCopyDll.DataBindings.Add(nameof(checkBoxCopyDll.Checked), model, nameof(model.CopyDll) , false,
               DataSourceUpdateMode.OnPropertyChanged);
-
-         
         }
 
         public void UpdateAutocompleteDataSource(PdbAndDllCopiermodel model)
@@ -73,16 +68,6 @@ namespace pdbAndDllCopier
         private void checkedListBox1_ItemCheck(object sender, ItemCheckEventArgs e)
         {
             FolderChecked?.Invoke(sender, e);
-           //var obj = checkedListBox1.Items[e.Index] as BinFolder;
-           //if (e.NewValue == CheckState.Checked)
-           //{
-           //    obj.Checked = true;
-           //}
-           //else
-           //{
-           //    obj.Checked = false;
-           //}
-
         }
 
 

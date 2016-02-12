@@ -15,13 +15,11 @@ namespace pdbAndDllCopier
 
         private string _savedlinesTxt = "SavedLines.txt";
 
-
         public PdbAndDllCopierPresenter(IPdbAndDllCopierView view, PdbAndDllCopiermodel model,Action<string> log )
         {
             _view = view;
             _model = model;
             _log = log;
-
             
             _view.CopyClicked+=ViewOnCopyClicked;
             _view.FolderChecked+=ViewOnFolderChecked;
@@ -158,20 +156,7 @@ namespace pdbAndDllCopier
                       _model.AllBinFolders.Where(selectedFolder => selectedFolder.ProjectName.Like(searchString))
                           .ToList());
               }
-             // displayedBinFolders.Clear();
-             //
-             // if (list.Count > 1)
-             // {
-             //     displayedBinFolders.RaiseListChangedEvents = false;
-             //     foreach (var binFolder in list.Take(list.Count - 2))
-             //     {
-             //         displayedBinFolders.Add(binFolder);
-             //     }
-             //     displayedBinFolders.RaiseListChangedEvents = true;
-             //     displayedBinFolders.Add(list.Last());
-             // }
-       
-              //DisplayList(displayedBinFolders);
+           
           }
 
         private IEnumerable<BinFolder> GetAllBinFolders(string rootPath)
