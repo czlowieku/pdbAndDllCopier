@@ -178,7 +178,8 @@ namespace pdbAndDllCopier
         {
             foreach (var subdir in Directory.GetDirectories(rootPath))
             {
-                if ((subdir.EndsWith(@"bin\Debug")|| subdir.EndsWith(@"bin")) && !subdir.Contains("Test") && !subdir.Contains("Mock"))
+                if ((subdir.EndsWith(@"bin\Debug") || (subdir.EndsWith(@"bin")&& !Directory.GetDirectories(subdir).Any(s => s.EndsWith("Debug")))) 
+                    && !subdir.Contains("Test") && !subdir.Contains("Mock"))
                 {
                     yield return
                         new BinFolder()
