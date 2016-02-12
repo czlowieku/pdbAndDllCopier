@@ -14,6 +14,7 @@ namespace pdbAndDllCopier
         private readonly Action<string> _log;
 
         private string _savedlinesTxt = "SavedLines.txt";
+        private string _fromToTxt= "FromTo.txt";
 
         public PdbAndDllCopierPresenter(IPdbAndDllCopierView view, PdbAndDllCopiermodel model,Action<string> log )
         {
@@ -26,20 +27,46 @@ namespace pdbAndDllCopier
             _view.SelectAllClicked+=ViewOnSelectAllClicked;
             _view.ClearClicked+=ViewOnClearClicked;
             _model.DisplayedBinFolders.ListChanged+=DisplayedBinFoldersOnListChanged;
+            _model.PropertyChanged += ModelOnPropertyChanged;
 
-            _model.FromPath =  @"E:\Dev\Fenergo\R7.1\WebApp\Src";
+            _model.FromPath = @"E:\Dev\Fenergo\R7.1\WebApp\Src";
             _model.ToPath = @"E:\Dev\HSBC\PROJECT\Src\UI\WebUI\bin";
+            GetSavedFromTo();
+         
             _model.CopyDll = true;
             _model.SearchString = "";
             _view.Bind(_model);
+            InitFolders();
+        }
 
-            _model.AllBinFolders = GetAllBinFolders(_model.FromPath).ToList();
-            LoadSavedFolders(_savedlinesTxt);
+        private void InitFolders()
+        {
+            try
+            {
+                _model.DisplayedBinFolders.Clear();
+                _model.AllBinFolders = GetAllBinFolders(_model.FromPath).ToList();
+                LoadSavedFolders(_savedlinesTxt);
+                _model.DisplayedBinFolders.AddRange(_model.AllBinFolders);
+                _view.UpdateAutocompleteDataSource(_model);
+                UpdateListOnView();
+            }
+            catch (Exception e)
+            {
+                _log(e.ToString());
+            }
+        }
 
-            _model.DisplayedBinFolders.AddRange(_model.AllBinFolders);
-            _model.PropertyChanged+=ModelOnPropertyChanged;
-
-            _view.UpdateAutocompleteDataSource(_model);
+        private void GetSavedFromTo()
+        {
+            if (File.Exists(_fromToTxt))
+            {
+                var llines = File.ReadAllLines(_fromToTxt);
+                if (llines.Length > 1)
+                {
+                    _model.FromPath = llines[0];
+                    _model.ToPath = llines[1];
+                }
+            }
         }
 
         private void ViewOnClearClicked(object sender, EventArgs eventArgs)
@@ -77,6 +104,12 @@ namespace pdbAndDllCopier
             {
                 Search(_model.SearchString);
             }
+
+            if (propertyChangedEventArgs.PropertyName == nameof(_model.FromPath))
+            {
+                InitFolders();
+            }
+            
         }
 
         public void Show()
@@ -139,7 +172,7 @@ namespace pdbAndDllCopier
             }
             File.WriteAllLines(_savedlinesTxt, _model.AllBinFolders.Where(folder => folder.Checked).Select(folder => folder.FullPath));
 
-
+            File.WriteAllLines(_fromToTxt, new List<string>() {_model.FromPath, _model.ToPath});
         }
 
           private void Search(string searchString)
