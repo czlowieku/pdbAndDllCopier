@@ -1,0 +1,126 @@
+E:\Dev\Fenergo\R7.1\WebApp\Src\Data Access\ActivityModule\Ergo.ExpertBanker.Data.ActivityModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Data Access\AdminModule\Ergo.ExpertBanker.Data.AdminModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Data Access\CashflowModule\Ergo.ExpertBanker.Data.CashflowModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Data Access\CovenantModule\Ergo.ExpertBanker.Data.CovenantModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Data Access\DocumentsModule\Ergo.ExpertBanker.Data.DocumentsModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Data Access\LegalEntityModule\Ergo.ExpertBanker.Data.LegalEntityModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Data Access\MainModule\Ergo.ExpertBanker.Data.MainModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Data Access\OriginationModule\Ergo.ExpertBanker.Data.OriginationModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Data Access\RiskRatingModule\Ergo.ExpertBanker.Data.RiskRatingModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Data Access\TradingAgreementModule\Ergo.ExpertBanker.Data.TradingAgreementModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Database\ProductData\bin
+E:\Dev\Fenergo\R7.1\WebApp\Src\DiscoveryService\EnvironmentDiscovery\bin
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ActivityModule\Ergo.ExpertBanker.DE.Validator.Activity\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ActivityModule\Ergo.ExpertBanker.Domain.ActivityModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ActivityModule\Ergo.ExpertBanker.Domain.ActivityModule.Enhancers\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ActivityModule\Ergo.ExpertBanker.Domain.ActivityModule.Entities\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ActivityModule\Ergo.ExpertBanker.Domain.ActivityModule.Repository\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ActivityModule\Ergo.ExpertBanker.Domain.ActivityModule.UIControlGroupStrategy\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\AdminModule\Ergo.ExpertBanker.Domain.AdminModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\AdminModule\Ergo.ExpertBanker.Domain.AdminModule.Entities\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\AdminModule\Ergo.ExpertBanker.Domain.AdminModule.Repository\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\CashflowModule\Ergo.ExpertBanker.Domain.CashflowModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\CashflowModule\Ergo.ExpertBanker.Domain.CashflowModule.Entities\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\CashflowModule\Ergo.ExpertBanker.Domain.CashflowModule.Repository\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\CovenantModule\Ergo.ExpertBanker.Domain.CovenantModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\CovenantModule\Ergo.ExpertBanker.Domain.CovenantModule.Common\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\CovenantModule\Ergo.ExpertBanker.Domain.CovenantModule.Entities\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\CovenantModule\Ergo.ExpertBanker.Domain.CovenantModule.Repository\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\CovenantModule\Ergo.ExpertBanker.Domain.CovenantModule.Scheduler\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\DataSource\Ergo.ExpertBanker.Domain.TemplateDataSource\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\DataSource\Ergo.ExpertBanker.Domain.TemplateDataSource.Entities\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\DocumentsModule\Ergo.ExpertBanker.DE.Behavior.Documents\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\DocumentsModule\Ergo.ExpertBanker.Domain.DocumentsModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\DocumentsModule\Ergo.ExpertBanker.Domain.DocumentsModule.Entities\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\DocumentsModule\Ergo.ExpertBanker.Domain.DocumentsModule.Repository\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\LegalEntityModule\Ergo.ExpertBanker.DE.Behavior.LegalEntity\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\LegalEntityModule\Ergo.ExpertBanker.DE.Validator.LegalEntity\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\LegalEntityModule\Ergo.ExpertBanker.Domain.LegalEntityModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\LegalEntityModule\Ergo.ExpertBanker.Domain.LegalEntityModule.Entities\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\LegalEntityModule\Ergo.ExpertBanker.Domain.LegalEntityModule.Repository\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\LegalEntityModule\Ergo.ExpertBanker.Domain.LegalEntityModule.Strategies\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\MainModule\Ergo.ExpertBanker.DE.Behavior.Main\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\MainModule\Ergo.ExpertBanker.DE.Validator.Main\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\MainModule\Ergo.ExpertBanker.Domain.MainModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\MainModule\Ergo.ExpertBanker.Domain.MainModule.Entities\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\MainModule\Ergo.ExpertBanker.Domain.MainModule.Repository\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\MainModule\Ergo.ExpertBanker.Domain.MainModule.UIControlGroupStrategy\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\MainModule\Fenergo.DE.Mask.Main\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\OriginationModule\Ergo.ExpertBanker.DE.Behavior.Origination\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\OriginationModule\Ergo.ExpertBanker.Domain.OriginationModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\OriginationModule\Ergo.ExpertBanker.Domain.OriginationModule.Entities\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\OriginationModule\Ergo.ExpertBanker.Domain.OriginationModule.Repository\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\RiskRatingModule\Ergo.ExpertBanker.Domain.RiskRating\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\RiskRatingModule\Ergo.ExpertBanker.Domain.RiskRating.Entities\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\RiskRatingModule\Ergo.ExpertBanker.Domain.RiskRating.Repositories\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ServicesGateway\Ergo.ExpertBanker.ServicesGateway\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ServicesGateway\Ergo.ExpertBanker.SG.CRMDynamicService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ServicesGateway\Ergo.ExpertBanker.SG.DataProviderService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ServicesGateway\Ergo.ExpertBanker.SG.DownstreamSystemService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ServicesGateway\Ergo.ExpertBanker.SG.ESEIService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ServicesGateway\Ergo.ExpertBanker.SG.ESIWebServiceClient\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ServicesGateway\Ergo.ExpertBanker.SG.ExchangeWebServiceClient\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ServicesGateway\Ergo.ExpertBanker.SG.FileSystemDocumentService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ServicesGateway\Ergo.ExpertBanker.SG.LoanCalculatorService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ServicesGateway\Ergo.ExpertBanker.SG.SharePointDocumentService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\ServicesGateway\Fenergo.SG.FmbServiceClient\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\TradingAgreementModule\Ergo.ExpertBanker.DE.Behavior.TradingAgreement\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\TradingAgreementModule\Ergo.ExpertBanker.Domain.TradingAgreementModule\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\TradingAgreementModule\Ergo.ExpertBanker.Domain.TradingAgreementModule.Entities\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Domain\TradingAgreementModule\Ergo.ExpertBanker.Domain.TradingAgreementModule.Repository\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Security\Ergo.ExpertBanker.Security.IdentityProvider\bin
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\CovenantModule\CovenantModuleServiceImplementation\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\CovenantModule\CovenantService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\DocumentsModule\Ergo.ExpertBanker.DocumentsModuleService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\DocumentsModule\Ergo.ExpertBanker.DocumentsModuleServiceImplementation\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\ExternalDataService\Fenergo.ExternalDataService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\ExternalDataService\Fenergo.ExternalDataServiceImplementation\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\FenergoQueueService\FenergoQueueService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\FenergoQueueService\FenergoQueueServiceImplementation\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\LegalEntityModule\Ergo.ExpertBanker.LegalEntityModuleCoreService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\LegalEntityModule\Ergo.ExpertBanker.LegalEntityModuleCoreServiceImpl\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\LegalEntityModule\Ergo.ExpertBanker.LegalEntityModuleEmailHandlers\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\LegalEntityModule\Ergo.ExpertBanker.LegalEntityModuleService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\LegalEntityModule\Ergo.ExpertBanker.LegalEntityModuleServiceImpl\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\MainModule\Ergo.ExpertBanker.MainModuleEmailHandlers\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\MainModule\Ergo.ExpertBanker.MainModuleService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\MainModule\Ergo.ExpertBanker.ServiceImplementation\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\SubscriptionService\Ergo.ExpertBanker.Infrastructure.SS.SanityCheck\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\TradingAgreementModule\Ergo.ExpertBanker.TradingAgreementModuleService\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Service Interface\TradingAgreementModule\Ergo.ExpertBanker.TradingAgreementModuleServiceImpl\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Ergo.ExpertBanker.Activity\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Ergo.ExpertBanker.Admin\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Ergo.ExpertBanker.Cashflow\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Ergo.ExpertBanker.Comments\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Ergo.ExpertBanker.Covenant\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Ergo.ExpertBanker.Dashboard\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Ergo.ExpertBanker.DMMain\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Ergo.ExpertBanker.Documents\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Ergo.ExpertBanker.LegalEntity\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Ergo.ExpertBanker.Origination\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Ergo.ExpertBanker.Reports\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Ergo.ExpertBanker.RiskRating\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Ergo.ExpertBanker.TradingAgreement\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Modules\Shell\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Services\Ergo.ExpertBanker.Navigation\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Services\Ergo.ExpertBanker.Security\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Services\Ergo.ExpertBanker.ServiceInterface\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\Services\Ergo.ExpertBanker.UI.Wizard\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\WebUI\bin
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\WebUI.Controls\bin
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\WebUI.Controls.CrossDomain\bin
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\WebUI.Covenants\bin
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\WebUI.Documents\bin
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\WebUI.LegalEntity\bin
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\WebUI.Origination\bin
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\WebUI.RiskRating\bin
+E:\Dev\Fenergo\R7.1\WebApp\Src\UI\Web\WebUI.TradingAgreement\bin
+E:\Dev\Fenergo\R7.1\WebApp\Src\Workflow\Ergo.ExpertBanker.Workfllow.WF4.WindowsClient\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Workflow\Ergo.ExpertBanker.Workflow.BRE.Domain\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Workflow\Ergo.ExpertBanker.Workflow.LegalEntity\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Workflow\Ergo.ExpertBanker.Workflow.Origination\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Workflow\Ergo.ExpertBanker.Workflow.WebSphere\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Workflow\Ergo.ExpertBanker.Workflow.WF4\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Workflow\Ergo.ExpertBanker.Workflow.WF4.Service\bin
+E:\Dev\Fenergo\R7.1\WebApp\Src\Workflow\Fenergo.Workflow.Activities\bin\Debug
+E:\Dev\Fenergo\R7.1\WebApp\Src\Workflow\Fenergo.Workflow.Persistence\bin\Debug
