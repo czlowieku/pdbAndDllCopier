@@ -29,8 +29,8 @@ namespace pdbAndDllCopier
             _model.DisplayedBinFolders.ListChanged+=DisplayedBinFoldersOnListChanged;
             _model.PropertyChanged += ModelOnPropertyChanged;
 
-            _model.FromPath = @"E:\Dev\Fenergo\R7.1\WebApp\Src";
-            _model.ToPath = @"E:\Dev\HSBC\PROJECT\Src\UI\WebUI\bin";
+          //  _model.FromPath = @"E:\Dev\Fenergo\R7.1\WebApp\Src";
+          //  _model.ToPath = @"E:\Dev\HSBC\PROJECT\Src\UI\WebUI\bin";
             GetSavedFromTo();
          
             _model.CopyDll = true;
@@ -194,9 +194,11 @@ namespace pdbAndDllCopier
 
         private IEnumerable<BinFolder> GetAllBinFolders(string rootPath)
         {
+            if (!Directory.Exists(rootPath)) yield break;
             foreach (var subdir in Directory.GetDirectories(rootPath))
             {
-                if ((subdir.EndsWith(@"bin\Debug") || (subdir.EndsWith(@"bin")&& !Directory.GetDirectories(subdir).Any(s => s.EndsWith("Debug")))) 
+                if ((subdir.EndsWith(@"bin\Debug") ||
+                     (subdir.EndsWith(@"bin") && !Directory.GetDirectories(subdir).Any(s => s.EndsWith("Debug"))))
                     && !subdir.Contains("Test") && !subdir.Contains("Mock"))
                 {
                     yield return
@@ -220,8 +222,18 @@ namespace pdbAndDllCopier
         private string GetProjectName(string subdir)
         {
             var splited = subdir.Split(Path.DirectorySeparatorChar).ToList();
-            return splited[splited.IndexOf("bin") - 1];
+            var projectName= splited[splited.IndexOf("bin") - 1];
+            return NonStandardProjectNames.ContainsKey(projectName) ? NonStandardProjectNames[projectName] : projectName;
         }
+
+        private Dictionary<string, string> NonStandardProjectNames = new Dictionary<string, string>()
+        {
+            {"Ergo.ExpertBanker.Domain.LegalEntityModule.Strategies", "Ergo.ExpertBanker.Domain.LegalEntityModule.UIControlGroupStrategy"},
+            {"CovenantModuleServiceImplementation","Ergo.ExpertBanker.CovenantModuleServiceImplementation" },
+            {"CovenantService","Ergo.ExpertBanker.CovenantModuleService" },
+            {"FenergoQueueServiceImplementation", "Fenergo.QueueServiceImplementation"},
+            {"Ergo.ExpertBanker.ServiceImplementation","Ergo.ExpertBanker.MainModuleServiceImplementation" }
+        };
 
     }
 }

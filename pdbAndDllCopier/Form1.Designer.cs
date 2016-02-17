@@ -38,11 +38,12 @@
             this.buttonAll = new System.Windows.Forms.Button();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.buttonClear = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonCopy
             // 
-            this.buttonCopy.Location = new System.Drawing.Point(330, 48);
+            this.buttonCopy.Location = new System.Drawing.Point(436, 52);
             this.buttonCopy.Name = "buttonCopy";
             this.buttonCopy.Size = new System.Drawing.Size(75, 23);
             this.buttonCopy.TabIndex = 0;
@@ -52,7 +53,7 @@
             // 
             // textBoxFrom
             // 
-            this.textBoxFrom.Location = new System.Drawing.Point(37, 51);
+            this.textBoxFrom.Location = new System.Drawing.Point(143, 55);
             this.textBoxFrom.Name = "textBoxFrom";
             this.textBoxFrom.Size = new System.Drawing.Size(287, 20);
             this.textBoxFrom.TabIndex = 1;
@@ -60,7 +61,7 @@
             // 
             // textBoxToPath
             // 
-            this.textBoxToPath.Location = new System.Drawing.Point(37, 25);
+            this.textBoxToPath.Location = new System.Drawing.Point(143, 29);
             this.textBoxToPath.Name = "textBoxToPath";
             this.textBoxToPath.Size = new System.Drawing.Size(287, 20);
             this.textBoxToPath.TabIndex = 2;
@@ -69,11 +70,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 28);
+            this.label1.Location = new System.Drawing.Point(12, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 13);
+            this.label1.Size = new System.Drawing.Size(125, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "To:";
+            this.label1.Text = "To WebUI\\bin bin folder:";
             // 
             // checkedListBox1
             // 
@@ -92,7 +93,7 @@
             this.checkBoxCopyDll.AutoSize = true;
             this.checkBoxCopyDll.Checked = true;
             this.checkBoxCopyDll.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxCopyDll.Location = new System.Drawing.Point(411, 54);
+            this.checkBoxCopyDll.Location = new System.Drawing.Point(517, 58);
             this.checkBoxCopyDll.Name = "checkBoxCopyDll";
             this.checkBoxCopyDll.Size = new System.Drawing.Size(63, 17);
             this.checkBoxCopyDll.TabIndex = 5;
@@ -141,11 +142,21 @@
             this.buttonClear.UseVisualStyleBackColor = true;
             this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 57);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(125, 13);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "From WebApp\\Src folder";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(687, 695);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.buttonAll);
             this.Controls.Add(this.textBoxSearch);
@@ -175,6 +186,7 @@
         private System.Windows.Forms.Button buttonAll;
         private System.Windows.Forms.TextBox textBoxSearch;
         private System.Windows.Forms.Button buttonClear;
+        private System.Windows.Forms.Label label2;
     }
 }
 

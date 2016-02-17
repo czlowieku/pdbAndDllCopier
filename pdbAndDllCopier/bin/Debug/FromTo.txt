@@ -1,2 +1,2 @@
 E:\Dev\Fenergo\R7.1\WebApp\Src
-E:\Dev\HSBC\PROJECT\Src\UI\WebUI\bin
+E:\Dev\CEHSBC\CE-DEV\Src\UI\WebUI
